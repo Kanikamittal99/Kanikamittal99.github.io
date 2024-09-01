@@ -309,10 +309,15 @@ textarea {
     .projects__row-content-title {
       font-weight: 700;
       font-size: 2.8rem;
-      margin-bottom: 2rem; }
+      margin-bottom: 0rem; }
       @media only screen and (max-width: 37.5em) {
-        .projects__row-content-title {
-          font-size: 2.4rem; } }
+    .projects__row-content-title {
+        font-size: 2.4rem; } }
+         .projects__row-content-subtitle {
+          font-size: 1.4em; /* Adjust the size as needed */
+          color: #3d3c3c; /* Optional: Change color for differentiation */
+          margin-bottom: 0.5rem; /* Optional: Adjust spacing */
+          }     
     .projects__row-content-desc {
       font-size: 1.8rem;
       color: grey;
